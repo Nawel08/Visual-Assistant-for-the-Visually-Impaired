@@ -61,7 +61,7 @@ Traditional aids (white canes) only detect immediate obstacles
 3. **BLIP** - Natural language scene descriptions
 4. **ImageNet Classifiers** - Product identification
 
-**Key Innovation:** Interactive Q&A capability for natural language queries
+**Key Innovation:** Interactive Q&A capability for natural language queries + Real Time Alert System
 
 ---
 
@@ -87,8 +87,6 @@ Traditional aids (white canes) only detect immediate obstacles
 
 **Real-time Visual Perception**
 - YOLOv8n model (lightweight, fast)
-- 80 object classes from COCO dataset
-- 15.6 FPS on high-resolution video
 
 **Key Features:**
 - Distance estimation: Very Close (<2m), Close (2-5m), Far (>5m)
@@ -114,15 +112,15 @@ Traditional aids (white canes) only detect immediate obstacles
 
 **Module II: OCR Text Recognition**
 - Dual-engine: EasyOCR + Tesseract
-- Reads street signs, license plates, building numbers
-- Smart deduplication (85% similarity threshold)
+- Reads street signs, license plates, etc
+- Smart deduplication (85% sim threshold)
 - French/English support
 
 **Module III: Scene Description (BLIP)**
 - Generates natural language descriptions
 - Updates every 3 seconds
-- Auto-detects indoor/outdoor environments
-- 100% environment classification accuracy
+- Auto-detects in/outdoor environments
+- 100% environment class. accuracy
 
 </div>
 <div>
