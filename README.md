@@ -1,7 +1,7 @@
 #  Vision Assistant for the Visually Impaired
 
 **Authors:** Victor Micha, Nawel Zait  
-**Date:** December 2024  
+**Date:** December 2025  
 **Course:** Computer Vision Project
 
 ---
