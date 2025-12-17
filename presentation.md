@@ -59,7 +59,7 @@ Traditional aids (white canes) only detect immediate obstacles
 1. **YOLOv8** - Real-time obstacle detection & distance estimation
 2. **EasyOCR** - Text recognition (street signs, labels)
 3. **BLIP** - Natural language scene descriptions
-4. **ImageNet Classifiers** - Product identification
+4. **ResNet-18** - Supplementary scene classification
 
 **Key Innovation:** Interactive Q&A capability for natural language queries + Real Time Alert System
 
@@ -73,9 +73,9 @@ Traditional aids (white canes) only detect immediate obstacles
 - Output: Prioritized audio alerts + Interactive Q&A
 
 **Performance:**
-- 12.7 FPS real-time processing
-- 85% distance estimation accuracy
-- 100% environment detection accuracy
+- Proof-of-concept system processing ~40-60 FPS on GPU
+- Distance: Relative estimation (bbox-based)
+- Real-time capable with GPU acceleration
 
 ---
 
@@ -89,7 +89,10 @@ Traditional aids (white canes) only detect immediate obstacles
 - YOLOv8n model (lightweight, fast)
 
 **Key Features:**
-- Distance estimation: Very Close (<2m), Close (2-5m), Far (>5m)
+- Distance estimation: 
+  Very Close (>30% screen coverage)
+  Close (15-30% screen coverage)  
+  Far (<15% screen coverage)
 - Spatial positioning: Left/Center/Right
 - Critical obstacle alerts: People, vehicles, traffic signs
 
@@ -120,7 +123,6 @@ Traditional aids (white canes) only detect immediate obstacles
 - Generates natural language descriptions
 - Updates every 3 seconds
 - Auto-detects in/outdoor environments
-- 100% environment class. accuracy
 
 </div>
 <div>
@@ -172,7 +174,7 @@ Traditional aids (white canes) only detect immediate obstacles
 ✓ Interactive Q&A system (major innovation)
 ✓ Intelligent 3-level TTS alerts
 ✓ No custom training required - all pre-trained models
-✓ True real-time capability (12.7 FPS)
+✓ Real-time capability (18 FPS)
 
 **Deployment Benefits:**
 - Immediate real-world deployment
