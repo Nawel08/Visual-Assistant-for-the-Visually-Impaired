@@ -94,14 +94,14 @@ Traditional aids (white canes) only detect immediate obstacles
   Close (15-30% screen coverage)  
   Far (<15% screen coverage)
 - Spatial positioning: Left/Center/Right
-- Critical obstacle alerts: People, vehicles, traffic signs
+- Critical obstacle alerts: People, vehicles...
 
-**Accuracy:** 94% position accuracy, 85% distance accuracy
+**Accuracy:** 94% position & 85% distance accuracy
 
 </div>
 <div>
 
-![w:400, h:500](module1.png)
+![w:300, h:500](module1.png)
 
 </div>
 </div>
